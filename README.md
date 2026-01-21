@@ -93,3 +93,13 @@ This work was supported in part by the Australian Research Council (ARC) Discove
 ## License
 
 The released dataset is made available under the [Open Database License](http://opendatacommons.org/licenses/odbl/1.0/). Any rights in individual contents of the database are licensed under the [Database Contents License](http://opendatacommons.org/licenses/dbcl/1.0/).
+
+## Contact
+
+Feel free to contact:
+
+Jinhao Li
+
+Monash University, Faculty of IT, Department of Data Science and AI.
+
+Email: jinhao.li@monash.edu or steplee175@gmail.com
