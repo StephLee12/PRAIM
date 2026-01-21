@@ -77,7 +77,7 @@ This work was supported in part by the Australian Research Council (ARC) Discove
 ## Citation
 
 ```bibtex
-@ARTICLE{10458427,
+@ARTICLE{li2026praim,
   author={Li, Jinhao and Wang, Hao},
   journal={IEEE Transactions on Smart Grid}, 
   title={A Unified Variational Imputation Framework for Electric Vehicle Charging Data Using Retrieval-Augmented Language Model}, 
