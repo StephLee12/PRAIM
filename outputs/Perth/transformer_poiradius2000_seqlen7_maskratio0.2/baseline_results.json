@@ -1,0 +1,8 @@
+{
+  "transformer": {
+    "imputation_mse": 2386.488613165642,
+    "imputation_rmse": 48.85170020752238,
+    "imputation_mae": 35.62447891847931,
+    "imputation_mape": 8120.342065793786
+  }
+}

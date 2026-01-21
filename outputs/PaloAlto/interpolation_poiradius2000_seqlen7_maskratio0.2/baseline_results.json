@@ -1,0 +1,8 @@
+{
+  "interpolation": {
+    "imputation_mse": 1859.5274294485666,
+    "imputation_rmse": 43.12223822401345,
+    "imputation_mae": 31.250573485083887,
+    "imputation_mape": 48.366975028314755
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "tcn": {
+    "imputation_mse": 2257.714663176817,
+    "imputation_rmse": 47.51541500583591,
+    "imputation_mae": 37.0508327762316,
+    "imputation_mape": 147.67767748053535
+  }
+}

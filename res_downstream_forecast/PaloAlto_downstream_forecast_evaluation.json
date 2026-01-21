@@ -1,0 +1,192 @@
+{
+  "city": "PaloAlto",
+  "horizon": 3,
+  "evaluation_timestamp": "2025-07-18T14:15:59.208213",
+  "evaluation_note": "Metrics calculated only on ground truth data points (not imputed values)",
+  "model_save_directory": "res_downstream_forecast/trained_models",
+  "methods": {
+    "original_complete": {
+      "description": "Original complete data without any missing values",
+      "performance": {
+        "NBEATS": {
+          "MAE": 41.85618781681241,
+          "MSE": 3239.0896747508123,
+          "RMSE": 56.91300092905673,
+          "MAPE": 34.56213113381067,
+          "n_predictions": 27,
+          "evaluation_type": "ground_truth_only"
+        },
+        "NHITS": {
+          "MAE": 43.959010438475815,
+          "MSE": 3440.9242041338534,
+          "RMSE": 58.65939144019356,
+          "MAPE": 35.30340183019604,
+          "n_predictions": 27,
+          "evaluation_type": "ground_truth_only"
+        },
+        "TiDE": {
+          "MAE": 57.81787130706087,
+          "MSE": 6473.920032240753,
+          "RMSE": 80.46067382417795,
+          "MAPE": 52.74792631689185,
+          "n_predictions": 27,
+          "evaluation_type": "ground_truth_only"
+        },
+        "DLinear": {
+          "MAE": 55.684727351692196,
+          "MSE": 5286.873853887976,
+          "RMSE": 72.7108922644192,
+          "MAPE": 45.57502880003999,
+          "n_predictions": 27,
+          "evaluation_type": "ground_truth_only"
+        },
+        "TSMixer": {
+          "MAE": 48.78647262655627,
+          "MSE": 5205.500021782642,
+          "RMSE": 72.14915122011237,
+          "MAPE": 46.437825767777205,
+          "n_predictions": 27,
+          "evaluation_type": "ground_truth_only"
+        },
+        "iTransformer": {
+          "MAE": 50.52603033730138,
+          "MSE": 4738.37026797458,
+          "RMSE": 68.83582111062945,
+          "MAPE": 42.230862553356324,
+          "n_predictions": 27,
+          "evaluation_type": "ground_truth_only"
+        },
+        "TimesNet": {
+          "MAE": 43.80011963391957,
+          "MSE": 4005.682531423328,
+          "RMSE": 63.29046161486996,
+          "MAPE": 40.20860142088093,
+          "n_predictions": 27,
+          "evaluation_type": "ground_truth_only"
+        }
+      },
+      "data_stats": {
+        "n_stations": 9,
+        "n_total_points": 19933,
+        "n_train_points": 15943,
+        "n_test_points": 3990,
+        "n_ground_truth_test_points": 3990
+      }
+    },
+    "PRAIM": {
+      "description": "Data imputed using PRAIM method",
+      "performance": {
+        "NBEATS": {
+          "MAE": 19.98186018107569,
+          "MSE": 664.5563220174812,
+          "RMSE": 25.77898993400403,
+          "MAPE": 344.096659370967,
+          "n_predictions": 161,
+          "evaluation_type": "ground_truth_only"
+        },
+        "NHITS": {
+          "MAE": 19.13737223188582,
+          "MSE": 529.0999669206692,
+          "RMSE": 23.00217309126834,
+          "MAPE": 334.91766980962393,
+          "n_predictions": 161,
+          "evaluation_type": "ground_truth_only"
+        },
+        "TiDE": {
+          "MAE": 18.850937453888275,
+          "MSE": 676.698311279354,
+          "RMSE": 26.01342559678279,
+          "MAPE": 193.83587467958168,
+          "n_predictions": 161,
+          "evaluation_type": "ground_truth_only"
+        },
+        "DLinear": {
+          "MAE": 17.936251051226527,
+          "MSE": 660.3065746846628,
+          "RMSE": 25.69643116630523,
+          "MAPE": 198.17725171302095,
+          "n_predictions": 161,
+          "evaluation_type": "ground_truth_only"
+        },
+        "TSMixer": {
+          "MAE": 17.395490827051844,
+          "MSE": 553.8354690197441,
+          "RMSE": 23.533709206577363,
+          "MAPE": 264.5766627800927,
+          "n_predictions": 161,
+          "evaluation_type": "ground_truth_only"
+        },
+        "iTransformer": {
+          "MAE": 23.237197711237396,
+          "MSE": 823.4095314504747,
+          "RMSE": 28.69511337232308,
+          "MAPE": 404.9796905677507,
+          "n_predictions": 161,
+          "evaluation_type": "ground_truth_only"
+        },
+        "TimesNet": {
+          "MAE": 16.435843302214398,
+          "MSE": 476.099525244968,
+          "RMSE": 21.819704976121194,
+          "MAPE": 221.67651114639236,
+          "n_predictions": 161,
+          "evaluation_type": "ground_truth_only"
+        }
+      },
+      "data_stats": {
+        "n_stations": 9,
+        "n_total_points": 5859,
+        "n_train_points": 4684,
+        "n_test_points": 1175,
+        "n_ground_truth_test_points": 171,
+        "n_imputed_test_points": 1004
+      }
+    }
+  },
+  "relative_improvements": {
+    "PRAIM": {
+      "NBEATS": {
+        "MAE": 52.26067823345929,
+        "MSE": 79.4832379233648,
+        "RMSE": 54.70456747459497,
+        "MAPE": -895.5886633227655
+      },
+      "NHITS": {
+        "MAE": 56.465416211608954,
+        "MSE": 84.6233181688507,
+        "RMSE": 60.78688761249713,
+        "MAPE": -848.6838447482389
+      },
+      "TiDE": {
+        "MAE": 67.39600226066061,
+        "MSE": 89.5473174226847,
+        "RMSE": 67.66939131826422,
+        "MAPE": -267.4758198361785
+      },
+      "DLinear": {
+        "MAE": 67.78964016839805,
+        "MSE": 87.51045338070487,
+        "RMSE": 64.65944734544307,
+        "MAPE": -334.8373592532915
+      },
+      "TSMixer": {
+        "MAE": 64.34361844479234,
+        "MSE": 89.36057119004523,
+        "RMSE": 67.38186269886833,
+        "MAPE": -469.74386376995307
+      },
+      "iTransformer": {
+        "MAE": 54.00945303616641,
+        "MSE": 82.62251607866766,
+        "RMSE": 58.313690591115716,
+        "MAPE": -858.9661827439153
+      },
+      "TimesNet": {
+        "MAE": 62.475346095890124,
+        "MSE": 88.11439694708415,
+        "RMSE": 65.52449702627118,
+        "MAPE": -451.31614458808906
+      }
+    }
+  }
+}

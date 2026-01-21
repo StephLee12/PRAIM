@@ -1,0 +1,8 @@
+{
+  "mean": {
+    "imputation_mse": 1530.41453148237,
+    "imputation_rmse": 39.12051292458178,
+    "imputation_mae": 26.909065800272018,
+    "imputation_mape": 7284.987527573894
+  }
+}

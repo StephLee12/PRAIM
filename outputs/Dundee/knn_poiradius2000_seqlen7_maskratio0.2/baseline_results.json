@@ -1,0 +1,8 @@
+{
+  "knn": {
+    "imputation_mse": 787.6178798827333,
+    "imputation_rmse": 28.06453063713579,
+    "imputation_mae": 9.750863321082512,
+    "imputation_mape": 783.4525227415907
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "kalman": {
+    "imputation_mse": 2015.738002211512,
+    "imputation_rmse": 44.89697096922588,
+    "imputation_mae": 17.983911334733143,
+    "imputation_mape": 1255.087502991973
+  }
+}

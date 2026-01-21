@@ -1,0 +1,8 @@
+{
+  "zero": {
+    "imputation_mse": 18427.041503045566,
+    "imputation_rmse": 135.7462393698093,
+    "imputation_mae": 114.06493250080008,
+    "imputation_mape": 100.0
+  }
+}

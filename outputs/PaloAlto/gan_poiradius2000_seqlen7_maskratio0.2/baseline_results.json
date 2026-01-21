@@ -1,0 +1,8 @@
+{
+  "gan": {
+    "imputation_mse": 1953.4246024653817,
+    "imputation_rmse": 44.19756330913936,
+    "imputation_mae": 32.20805406603815,
+    "imputation_mape": 48.91637259005869
+  }
+}

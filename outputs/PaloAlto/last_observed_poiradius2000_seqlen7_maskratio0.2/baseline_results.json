@@ -1,0 +1,8 @@
+{
+  "last_observed": {
+    "imputation_mse": 2087.9342868270105,
+    "imputation_rmse": 45.6939195826645,
+    "imputation_mae": 30.19592523431236,
+    "imputation_mape": 45.674710165535366
+  }
+}

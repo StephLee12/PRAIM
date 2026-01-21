@@ -1,0 +1,8 @@
+{
+  "autoencoder": {
+    "imputation_mse": 747.9705276482003,
+    "imputation_rmse": 27.349049849093486,
+    "imputation_mae": 10.326296504816458,
+    "imputation_mape": 648.7877710609719
+  }
+}

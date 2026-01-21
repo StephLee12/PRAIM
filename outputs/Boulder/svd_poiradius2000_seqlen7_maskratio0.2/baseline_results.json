@@ -1,0 +1,8 @@
+{
+  "svd": {
+    "imputation_mse": 1599.5915081924873,
+    "imputation_rmse": 39.994893526455186,
+    "imputation_mae": 31.542147024817062,
+    "imputation_mape": 114.45941165143321
+  }
+}

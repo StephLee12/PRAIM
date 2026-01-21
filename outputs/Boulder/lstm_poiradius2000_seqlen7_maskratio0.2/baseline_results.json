@@ -1,0 +1,8 @@
+{
+  "lstm": {
+    "imputation_mse": 2259.621108318454,
+    "imputation_rmse": 47.53547210577017,
+    "imputation_mae": 37.06539454766912,
+    "imputation_mape": 147.69563849222516
+  }
+}
